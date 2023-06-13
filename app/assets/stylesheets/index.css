@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 10px 30px;
+  font-size: 2em;
+}
+
+thead {
+  padding: 20px 0;
+  display: table-header-group;
+    vertical-align: middle;
+}
+
+table {
+  border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+    line-height: 1.8;
+}
+
+td {
+  padding: 0 10px;
+}
+
+.link {
+  word-spacing: 0.5em;
+}
+
+body {
+  margin: 33px;
+}
+
+.text-title {
+  padding-top: 1em;
+}
+
+.box {
+   line-height: 1.5em;
+}
