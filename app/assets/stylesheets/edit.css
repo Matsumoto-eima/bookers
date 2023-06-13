@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  line-height: 1;
+  margin-top: 0.7em;
+}
+
+.link {
+  padding-top: 0.5em;
+}

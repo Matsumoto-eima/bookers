@@ -1,8 +1,14 @@
-<p>Title:</p>
-<p><%= @book.title %></p>
-
-<p>Body:</p>
-<p><%= @book.body %></p>
-
+<html>
+<%= stylesheet_link_tag "show", :media => "all" %>
+<main>
+<div class = "title">
+<h5>Title: <%= @book.title %></h5>
+</div>
+<div class = "body">
+<h5>Body: <%= @book.body %></h5>
+</div>
+</main>
 <span><%= link_to "Edit", edit_book_path(@book.id) %></span>
+|
 <span><%= link_to "Back", books_path %></span>
+</html>

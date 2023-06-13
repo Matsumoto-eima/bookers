@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin-top: 2em;
+  margin-left: 3em;
+  line-height: 3.5em;
+}
+
+h5 {
+  font-weight: bold;
+}
+
