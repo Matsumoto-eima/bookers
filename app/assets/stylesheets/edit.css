@@ -4,6 +4,23 @@
   box-sizing: border-box;
 }
 
+main {
+  width: 450px;
+}
+
+.errors {
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  　line-height: 5px;
+    margin-left: 50px;
+    font-size: small;
+    }
+
 .box {
   line-height: 1;
   margin-top: 0.7em;

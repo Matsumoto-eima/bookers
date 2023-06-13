@@ -19,7 +19,7 @@ table {
   border-collapse: separate;
     text-indent: initial;
     border-spacing: 2px;
-    line-height: 1.8;
+    line-height: 1.6;
 }
 
 td {
@@ -34,8 +34,25 @@ body {
   margin: 33px;
 }
 
+main {
+  width: 450px;
+}
+
+.errors {
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  　line-height: 5px;
+    margin-left: 50px;
+    font-size: small;
+    }
+
 .text-title {
-  padding-top: 1em;
+  padding-top: 0.1em;
 }
 
 .box {
